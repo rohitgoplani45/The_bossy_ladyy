@@ -1,0 +1,347 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.pg1a {
+  width: 375px;
+}
+
+.pg1a img {
+  width: 410px;
+  height: 710px;
+}
+
+.swap {
+  background-color: #000;
+  text-align: end;
+  width: 100%;
+  background-color: #000;
+}
+
+.swap button {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(238, 255, 2);
+  height: 35px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 2px 5px;
+  font-family: "Amarante", serif;
+}
+
+.story {
+  background-color: #000;
+  color: rgb(241, 241, 241);
+  height: auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#ghibli {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  opacity: 40%;
+}
+
+.story h1,
+p {
+  font-family: "Amarante", serif;
+  height: auto;
+  text-align: center;
+}
+
+.pg2a {
+  font-size: 20px;
+  color: rgb(0, 251, 255);
+  position: absolute;
+  text-align: center;
+  top: 3%;
+  left: 6%;
+  background-color: transparent;
+}
+
+.pg2b {
+  font-size: 18px;
+  color: rgb(248, 255, 35);
+  padding-top: 10px;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  background-color: transparent;
+
+}
+
+.story p {
+  /* padding: 30px 50px; */
+  position: absolute;
+  text-align: justify;
+  font-size: 13.5px;
+  top: 16%;
+  left: 3%;
+  right: 3%;
+  font-weight: bolder;
+  color: #fff;
+  opacity:80%;
+  background-color: transparent;
+  line-height: 21px;
+}
+
+.points {
+  background-color: #000;
+  color: rgb(241, 241, 241);
+  height: auto;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#Collage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  opacity: 30%;
+}
+
+.points h1,
+p,
+ul {
+  font-family: "Amarante", serif;
+  height: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+.pg3a {
+  position: absolute;
+  font-size: 21px;
+  top: 4%;
+  left: 3%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: rgb(225, 255, 0);
+}
+
+.pg3b {
+  position: absolute;
+  font-size: 15px;
+  top: 12%;
+  left: 2%;
+  right: 2%;
+  text-align: justify;
+  background-color: transparent;
+
+}
+
+.pg3b ul li {
+  background-color: transparent;
+  font-size: 22px;
+  text-align: justify;
+  font-weight: bold;
+  line-height: 41px;
+  opacity: 80%;
+}
+
+.pg3b ul {
+  list-style-type: disc;
+  padding: 10px 5%;
+}
+
+.pg3c {
+  position: absolute;
+  top: 78%;
+  left: 3%;
+  right: 3%;
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(115, 255, 255);
+  letter-spacing: 1px;
+}
+
+.heading {
+  color: beige;
+  font-size: 12px;
+  margin: 22px;
+  text-align: center;
+}
+
+.memory {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.yaade {
+  width: 75%;
+  height: auto;
+}
+
+.yaade img {
+  width: 100%;
+  height: 400px;
+  border: 3px rgb(255, 255, 255) solid;
+  border-radius: 15px;
+  display: block;
+  justify-self: center;
+}
+
+.yaade p {
+  display: none;
+}
+
+.yaade:hover p {
+  display: block;
+  text-align: justify;
+  font-size: 22px;
+  width: 98%;
+  height: 400px;
+  font-weight: bold;
+  justify-self: center;
+  background-color: skyblue;
+  border: 3px rgb(255, 255, 255) solid;
+  border-radius: 15px;
+  line-height: 40px;
+  color: black;
+  padding: 0 3px;
+  text-justify: center;
+  letter-spacing: 1.1px;
+  align-content: center;
+}
+
+.yaade:hover img {
+  display: none;
+  transition-duration: 2s;
+}
+
+
+.pg5 {
+  font-family: "Amarante", serif;
+  background: #000;
+  text-align: center;
+  /* padding: 30px; */
+  padding-top: 10px;
+  margin: 0;
+  overflow-x: hidden;
+  height: 63vh;
+  perspective: 900px;
+  /* 👈 For 3D effect */
+}
+
+.pg5a {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 35px;
+}
+
+
+.pg5b {
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin-top: 55px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  transform-style: preserve-3d;
+  animation: rotate 15s infinite linear;
+}
+
+.pg5b img {
+  position: absolute;
+  width: 85%;
+  height: 200px;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Position each image in 3D space */
+.pg5b img:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(2) {
+  transform: rotateY(45deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(3) {
+  transform: rotateY(90deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(4) {
+  transform: rotateY(135deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(5) {
+  transform: rotateY(180deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(6) {
+  transform: rotateY(225deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(7) {
+  transform: rotateY(270deg) translateZ(300px);
+}
+
+.pg5b img:nth-child(8) {
+  transform: rotateY(315deg) translateZ(300px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.pg5c {
+  color: white;
+  width: 80%;
+  font-family: "Amarante", serif;
+  font-size: 19px;
+  text-align: justify;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  word-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pg1d video{
+  opacity: 5%;
+  height: 0px;
+}
+.pg2d video{
+  opacity: 5%;
+  height: 0px;
+}
+.pg3d video{
+  opacity: 95%;
+  height: 0px;
+}
+.pg4d video{
+  opacity: 95%;
+  height: 0px;
+}
+
+
+
