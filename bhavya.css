@@ -120,9 +120,9 @@ ul {
 
 .pg3a {
   position: absolute;
-  font-size: 16px;
+  font-size: 17px;
   top: 4%;
-  left: 1%;
+  left: 3%;
   word-spacing: 2px;
   letter-spacing: 1px;
   color: rgb(225, 255, 0);
@@ -141,10 +141,10 @@ ul {
 
 .pg3b ul li {
   background-color: transparent;
-  font-size: 15px;
+  font-size: 17px;
   text-align: justify;
   font-weight: bold;
-  line-height: 31px;
+  line-height: 35px;
   opacity: 80%;
 }
 
