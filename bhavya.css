@@ -63,7 +63,7 @@ p {
   position: absolute;
   text-align: center;
   top: 3%;
-  left: 4%;
+  left: 3%;
   background-color: transparent;
 }
 
@@ -73,7 +73,7 @@ p {
   padding-top: 10px;
   position: absolute;
   top: 8%;
-  left: 6%;
+  left: 4%;
   background-color: transparent;
 
 }
@@ -82,7 +82,7 @@ p {
   /* padding: 30px 50px; */
   position: absolute;
   text-align: justify;
-  font-size: 12.5px;
+  font-size: 12px;
   top: 16%;
   left: 3%;
   right: 3%;
@@ -90,7 +90,7 @@ p {
   color: #fff;
   opacity:80%;
   background-color: transparent;
-  line-height: 18px;
+  line-height: 17px;
 }
 
 .points {
@@ -120,7 +120,7 @@ ul {
 
 .pg3a {
   position: absolute;
-  font-size: 19px;
+  font-size: 16px;
   top: 4%;
   left: 1%;
   word-spacing: 2px;
@@ -141,10 +141,10 @@ ul {
 
 .pg3b ul li {
   background-color: transparent;
-  font-size: 19px;
+  font-size: 15px;
   text-align: justify;
   font-weight: bold;
-  line-height: 41px;
+  line-height: 31px;
   opacity: 80%;
 }
 
